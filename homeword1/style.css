@@ -1,0 +1,67 @@
+
+.sidebar{
+    height: 700px;
+    border: 1px solid;
+}
+.main{
+    height: 700px;
+    border: 1px solid;
+}
+.main-item{
+    height: 77%;
+}
+
+#search-bar input{
+    width: 160px;
+    padding: 5px 5px;
+}
+.card{
+    width: 250px;
+    height: 170px;
+}
+.card-body i{
+    font-size: 50px;
+}
+.card a{
+    text-decoration: none;
+}
+.card a i{
+    
+    border: 1px solid;
+    border-radius: 50%;
+}
+#search-box{
+    background-color: aliceblue;
+    border-radius: 50px;
+    border: 1px solid;
+    border: none;
+  }
+  #search-box #search-text{
+    border: none;
+    outline: none;
+    background-color: aliceblue;
+    border-radius: 50px;
+    width: 0;
+    height: 0;
+    padding: 5px 5px;
+  }
+  #search-box:hover #search-text{
+    width: 150px;
+    height: 30px;
+    background-color: aqua;
+    padding: 10px 10px;
+    border: 1px solid;
+  } 
+  #search-box #search-btn{
+   background-color:aliceblue;
+    border: none;
+    border-radius: 50%;
+  }
+
+  .main-footer{
+     height: 7%;
+     border: 1px solid;
+  }
+
+
+
